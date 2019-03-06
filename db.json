@@ -1,1 +1,31 @@
-[{"Channel": "Wireless Digital","Application": "Dotcom","Status": "Completed","ODC_Status": "NA","TDC_Status": "PASS","SDC_Status": "PASS","ExecutionDate": {"$date": 1551776634273},"ExecutionTime": 1551776634.274737,"Comments": "Success"}]
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
